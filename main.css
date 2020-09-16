@@ -1,0 +1,186 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600');
+
+
+
+body {
+    background-color: #f9f9f9;
+    color: #505458;
+    font-size: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+a {
+    text-decoration: none !important;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+.section-lg {
+    padding-top: 113px;
+    padding-bottom: 70px;
+}
+
+.section-lg-3 {
+    padding-top: 66px;
+}
+
+.section-lg-4 {
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+.section-min {
+    padding-top: 13px;
+}
+
+.section-full {
+    width: 100%;
+}
+
+.sec1 {
+    padding: 30px 0;
+    background: #fff;
+}
+
+.home-alt p {
+    color: #eee !important;
+}
+
+.home-alt h1 {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 54px;
+    font-weight: 600;
+}
+
+.home-alt h3 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    line-height: 54px;
+    font-weight: 600;
+}
+
+.text-muted {
+    color: #e6e3e3 !important;
+}
+
+.logo {
+    max-width: 148px;
+    margin-bottom: 40px;
+}
+
+.logo_icon {
+    max-width: 80%;
+    margin-bottom: 40px;
+}
+
+.bg-solid {
+    background-color: #6AA84F !important;
+    background-image: url("./Images/bg-pattern.png");
+    background-repeat: repeat;
+}
+
+.bg-solid_2 {
+    background-color: #38761D !important;
+    background-image: url("./Images/bg-pattern.png");
+    background-repeat: repeat;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.home-wrapper p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #787787;
+}
+
+.home-wrapper h4 {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 40px;
+    line-height: 54px;
+    font-weight: 600;
+}
+
+/* Footer */
+.footer {
+    padding: 13px 0px;
+    border-top: 1px solid #ececec;
+}
+
+.copyright {
+    color: #ececec;
+    margin: 0px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .home-alt h1 {
+        font-size: 40px;
+    }
+}
+
+.features-box h3 {
+    font-size: 28px;
+    margin-top: -20px;
+    margin-bottom: 60px;
+    color: #38761D;
+}
+
+/* BUTTONS */
+
+.btn {
+    font-size: 14px;
+}
+
+a {
+    color: #cc0000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn-app-download {
+    padding: 10px 22px 10px 65px;
+    position: relative;
+    display: inline-block;
+    color: #38761D;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.btn-app-download:hover,
+.btn-app-download:focus {
+    color: #fff;
+    outline: none;
+
+}
+
+.btn-app-download i {
+    font-size: 30px;
+    left: 17px;
+    right: 10px;
+    line-height: 1;
+    margin: 13px 0 0 20px;
+    position: absolute;
+    top: 0;
+}
+
+.btn-app-download strong {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, 0)
+}

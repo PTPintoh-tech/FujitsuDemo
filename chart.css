@@ -1,0 +1,41 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600');
+
+
+
+body {
+    background-color: #6AA84F !important;
+    background-image: url("./Images/bg-pattern.png");
+    background-repeat: repeat;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+.button {
+    background-color: #4caf4fb7;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    width: 250px;
+}
+
+.button1:hover {
+    background-color: #38761d77;
+    color: white;
+}
